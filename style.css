@@ -250,6 +250,13 @@ margin-top: 10px;
 #tavern .campaign-logo img{
     max-width: 258px;
 }
+.campaign-slide-nav {
+    margin-top: 25px;
+    font-size: 24px;
+    color: #500c7a;
+    display: flex;
+    justify-content: flex-end;
+}
 .campaign-slide-nav > * {
     border: solid 2px #500c7a;
     display: flex;
