@@ -55,7 +55,6 @@ h2 {
 .menu {
     text-align: right;
     color: #fff6ec;
-    text-decoration: line-through; 
 
 }
 .explore {
@@ -92,7 +91,7 @@ h2 {
 #navb .logo a, #navb .logo img {
     width: 100%;
     display: block;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 #navb, #navb a {
     color: #fff;
@@ -135,7 +134,7 @@ h2 {
 }
 .about-content {
 /* background-color: #fff6ec; */
-background: url(../img/dices.png) no-repeat 90% 90%, #fff6ec;
+background: url(../StoryTeller/images/dices.png) no-repeat 90% 90%, #fff6ec;
 padding: 50px;
 margin-top: 10px;
 }
@@ -158,12 +157,20 @@ margin-top: 10px;
     margin: 100px auto 0;    
     max-width: 1280px;
     width: 90%;
+
 }
 #campaign h3 {
     text-align: center;
     position: relative;
     padding-top: 60px;
     margin-top: -60px; 
+}
+.campaign-logo {
+    display: flex;
+    justify-content: space-between;
+}
+.swiper-campaign-slide {
+
 }
 .campaign-slide {
     margin-top: 45px;
@@ -172,10 +179,12 @@ margin-top: 10px;
 }
 .slide-card {
     width: 30%;
-    border: solid 3px #500c7a;
+    border: solid 3px #7a94eb;
     background: #fff;
     height: 536px;
     position: relative;
+    justify-content: space-evenly
+
 }
 .gradient {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0,0,0,0));
@@ -292,7 +301,7 @@ margin-top: 10px;
     padding: 15px;
 }
 .newsletter-content input::placeholder {
-    color: #a996b2;
+    color: #7aaefc;
     font-family: 'Syne', sans-serif;
 }
 
