@@ -55,6 +55,7 @@ h2 {
 .menu {
     text-align: right;
     color: #fff6ec;
+    text-decoration: line-through; 
 
 }
 .explore {
@@ -67,7 +68,7 @@ h2 {
 .explore:hover {
     background: #500c7a;
 }
-.navb {
+#navb {
     position: fixed;
     top: 0;
     z-index: 10;
@@ -76,7 +77,7 @@ h2 {
     padding: 10px 0;
 
 }
-.navb-in {
+#navb-in {
     display: flex;
     justify-content: space-between;
     max-width: 1280px;
@@ -84,28 +85,28 @@ h2 {
     margin: 0 auto;
     padding: 10px 0;
 }
-.navb .logo {
+#navb .logo {
     max-width: 115px;
     margin-top: 15px;
 }
-.navb .logo a, .navb .logo img {
+#navb .logo a, #navb .logo img {
     width: 100%;
     display: block;
     margin-top: 20px;
 }
-.navb, .navb a {
+#navb, #navb a {
     color: #fff;
 }
-.navb .menu {
+#navb .menu {
     display: flex;
     align-items: center;
 }
-.navb .menu a {
+#navb .menu a {
     display: flex;
     text-decoration: none;
     padding: 0 15px;
 }
-.navb .menu a:hover {
+#navb .menu a:hover {
     text-decoration: underline;
 }
 .mid {
