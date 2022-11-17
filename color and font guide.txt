@@ -1,0 +1,16 @@
+=========
+Color hex code 
+=========
+Black #323131
+Purple #500c7a
+Gradient Button #500c7a - #9f2f87
+Gradient BG About #540d36 - #641c35
+BG About #fff6ec
+
+=========
+Fonts
+=========
+Titles 
+https://fonts.google.com/specimen/Germania+One?query=germania
+Body
+https://fonts.google.com/specimen/Syne?query=syne
